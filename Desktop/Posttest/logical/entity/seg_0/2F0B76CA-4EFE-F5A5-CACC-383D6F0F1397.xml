@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F0B76CA-4EFE-F5A5-CACC-383D6F0F1397" name="Genre">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:11:55 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Genre_Id" id="55EDC44D-3E40-4A46-2B31-BF9B27791653">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:12:01 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Genre" id="6489C3B6-7B93-932C-3783-482680E05842">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:12:01 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6315ECB2-3F07-9AC3-D2C0-A519D0AEA79F" name="Genre PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:12:17 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55EDC44D-3E40-4A46-2B31-BF9B27791653</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

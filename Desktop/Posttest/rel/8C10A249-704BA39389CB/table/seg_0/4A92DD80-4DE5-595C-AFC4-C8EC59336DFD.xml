@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A92DD80-4DE5-595C-AFC4-C8EC59336DFD" name="Manga">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>E328245A-BC02-6E24-C626-D7CEFA896352</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Manga_Id" id="98D5B80E-B357-B236-81B3-F67231C9BCE7">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>38D7C3BA-FD8D-2841-D1CF-76C8A8AECCAA</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul" id="07C5101D-310B-2E50-FC7C-6B95445A77DD">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>410AE474-0E02-4D82-723A-C00C7D7068EB</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="6A208B7A-399F-0487-49F7-7217F7397E79">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>FE5604F9-CCE8-5F48-BB7C-DB54283C000B</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok" id="BBAD6BF3-4DC6-376F-6F63-C670DFB55E59">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>468E57A0-ABE3-D50F-FA2D-CDF5285E37E4</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genre_ID" id="FAB3E4F4-582E-9517-4C95-67568F42FDA3">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>64FF3AB1-B2F1-B4CE-E69C-82C1098BE5A1</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genre_Genre_Id" id="AC20C635-1ADB-A603-B857-B6B4BC49BA11">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>DED06135-7629-B50B-F9C3-E0F70623119A</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="993F2992-69B6-15E7-BA9B-7B0F027F4912" referredColumn="F8DA8E3B-A773-FA9F-EA17-BA043890CCDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7ADB80D-975C-3145-6F96-FDCD5D982BB8" name="Manga_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>279A001E-42B2-6DED-28D4-4CAA7212A5F5</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98D5B80E-B357-B236-81B3-F67231C9BCE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D408FD5B-50DE-B5AF-0727-0E71CC3F852C" name="Manga_Genre_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>13773DFA-E4B6-3BB0-D733-DFD73B8E5FC2</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC20C635-1ADB-A603-B857-B6B4BC49BA11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

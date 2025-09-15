@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4281D2B-2F5D-04E4-42E9-271CCC96D5DC" name="Film">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>6A8DD07C-76A0-2BD4-BCB9-9A9BFE938224</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdFilm" id="049421C8-688C-E740-BD6F-0194D1F21150">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>29C96063-154E-83C3-EC07-F43D26D0D871</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul" id="011E8F1C-ABA7-C30D-0467-E905C254DF48">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>D25A4F26-E0ED-F871-09A6-B1DBBD2518CB</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TahunRilis" id="F99FD94B-2CA6-1877-153A-EB661D2D6368">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>92366B36-E78A-0EF8-AB34-8CB2D8348967</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genre" id="37D87A81-B805-27DA-0065-91D826A2E97C">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>B6438F3E-8D2E-60F3-1100-3C343EBAD05E</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Durasi" id="F5F53BB8-0D6B-B7A6-B627-1CE0DF8A2600">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>50E95F8B-7A54-D9E1-4418-F34CF01AA7A5</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5327CB20-2FD9-C8AF-E598-FB7B9F5BD1FA" name="Film_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>05DD0629-E49A-C00D-C579-C33FFD29B9A5</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049421C8-688C-E740-BD6F-0194D1F21150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

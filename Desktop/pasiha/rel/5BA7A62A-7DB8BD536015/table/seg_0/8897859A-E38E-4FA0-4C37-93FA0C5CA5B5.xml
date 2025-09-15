@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8897859A-E38E-4FA0-4C37-93FA0C5CA5B5" name="Jadwal">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>B59C5149-07EB-BA97-575B-0F83ECCD6111</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDJadwal" id="4D436AA5-3A5F-B460-0828-2BACC1CE235C">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>06A7E73C-1C5A-C49F-5D5C-42F8B582F900</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanngalTayang" id="93EAE9B7-7E45-478C-6423-1D3AE7D53652">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>2201BB78-1531-44F6-4E87-5D68843F57B8</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Waktu" id="3CF944B9-09EE-A64F-CF6F-8F9D4E3C2950">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>73BA66E1-3C2C-2C25-1697-4D7740DD35B0</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studio" id="87F90379-4D50-2011-A274-4FEDA6DC32E1">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>B1CE6D98-CF3F-E24E-0AC1-96F5BAFBE81B</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kapasitas" id="8E70B97F-ECD4-A91F-8DC0-B20F8A75E7BA">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>FF0A8521-900A-B7EA-1BFF-161AE30EF1B0</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Film_IdFilm" id="A7F5C12A-777B-0BE9-7D4C-F553B2645303">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>4F5A84AD-E524-2E97-FA17-BA78EE263553</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C95B579-3B37-C436-3B08-1787A60DB62B" referredColumn="049421C8-688C-E740-BD6F-0194D1F21150"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79B22959-9989-6471-B8A2-D6DE38643CFC" name="Jadwal_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>E9ECBD19-2869-1868-5A8D-73B72FD7611B</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D436AA5-3A5F-B460-0828-2BACC1CE235C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0176FF9E-5861-AA7C-607F-6AC6B1198014" name="Jadwal_Film_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>A6D6E800-9DB2-CC42-C203-5AA0C95FA7C5</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7F5C12A-777B-0BE9-7D4C-F553B2645303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

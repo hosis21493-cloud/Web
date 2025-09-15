@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="399C22C0-834D-0FEC-5807-B9A2442892D8" name="Order">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>8422E690-9E6E-9829-41B3-C993D322A6C6</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_Id" id="EA3B91B4-FF08-9ACE-E2B2-B1CF0524BD1B">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>6E9598EB-E8C0-A7DA-1944-EFC5C96596AE</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Id" id="BEB3FACD-47C0-3C7B-A922-13986621C251">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>433A2704-46D6-4444-7E8F-2756F68FFE2E</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Pesan" id="BE5523C5-83D7-5EFC-78F5-F2CEFE2896CF">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>84D708B3-F231-C228-A582-E01889E12A46</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Harga" id="24A86C83-2A85-729C-FF08-B432E9BA7B02">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>76587716-113D-F17F-67BE-76FCD904592A</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_User_Id" id="E9FE5B5C-7070-2846-EE43-078D0221DC54">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>B649C637-E3B9-98AD-0B59-801A727DC51A</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7DBD52E-3BD7-E882-94A2-243886A24506" referredColumn="C037F2FA-7C07-6AB5-B58F-AB46A37A50C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9BD30BB-D257-50F7-58B0-314FE0937B77" name="Order_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>8B62F42A-E46A-7DC1-18D1-31EC8AE6AA22</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3B91B4-FF08-9ACE-E2B2-B1CF0524BD1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19B6ABD1-8EAC-7819-04D9-133894B5D11A" name="Order_User_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>C10D4DF6-ABAF-9B6C-1996-67DABAE0E18D</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FE5B5C-7070-2846-EE43-078D0221DC54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

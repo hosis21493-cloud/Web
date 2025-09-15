@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Genre_Manga" directorySegmentName="seg_0" id="13773DFA-E4B6-3BB0-D733-DFD73B8E5FC2">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:33:57 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<sourcePk>6315ECB2-3F07-9AC3-D2C0-A519D0AEA79F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Mengelompokkan</nameOnSource>
+<nameOnTarget>Terlgolong_Dalam</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F0B76CA-4EFE-F5A5-CACC-383D6F0F1397</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E328245A-BC02-6E24-C626-D7CEFA896352</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

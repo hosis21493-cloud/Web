@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7657078-0455-C7A9-0FAB-883C49BFFB6F" containerWithKeyObject="1300EEA9-5B25-9393-3EC9-9BF72867DF46" localFKIndex="AB2311DE-05CD-E321-7BD8-67CB9564CF16" name="Tiket_Jadwal_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>37FAC438-82EA-C4F6-3D67-5B8437F8718E</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<referredTableLongName>Jadwal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8897859A-E38E-4FA0-4C37-93FA0C5CA5B5</referredTableID>
+<keyObject>79B22959-9989-6471-B8A2-D6DE38643CFC</keyObject>
+<referredKeyID>79B22959-9989-6471-B8A2-D6DE38643CFC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDJadwal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tayang" directorySegmentName="seg_0" id="A6D6E800-9DB2-CC42-C203-5AA0C95FA7C5">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:33:34 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<sourcePk>05DD0629-E49A-C00D-C579-C33FFD29B9A5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ditayangkan</nameOnSource>
+<nameOnTarget>menayangkan</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A8DD07C-76A0-2BD4-BCB9-9A9BFE938224</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B59C5149-07EB-BA97-575B-0F83ECCD6111</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

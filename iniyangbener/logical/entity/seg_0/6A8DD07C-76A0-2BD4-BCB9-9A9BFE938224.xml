@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A8DD07C-76A0-2BD4-BCB9-9A9BFE938224" name="Film">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:20:41 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdFilm" id="29C96063-154E-83C3-EC07-F43D26D0D871">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:20:48 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Judul" id="D25A4F26-E0ED-F871-09A6-B1DBBD2518CB">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:21:15 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TahunRilis" id="92366B36-E78A-0EF8-AB34-8CB2D8348967">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:21:53 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre" id="B6438F3E-8D2E-60F3-1100-3C343EBAD05E">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:22:42 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Durasi" id="50E95F8B-7A54-D9E1-4418-F34CF01AA7A5">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:23:29 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05DD0629-E49A-C00D-C579-C33FFD29B9A5" name="Film PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:21:11 UTC</createdTime>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29C96063-154E-83C3-EC07-F43D26D0D871</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

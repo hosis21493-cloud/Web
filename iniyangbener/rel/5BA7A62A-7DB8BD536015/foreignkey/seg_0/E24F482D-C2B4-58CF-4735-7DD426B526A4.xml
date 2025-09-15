@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E24F482D-C2B4-58CF-4735-7DD426B526A4" containerWithKeyObject="1300EEA9-5B25-9393-3EC9-9BF72867DF46" localFKIndex="ACDC1209-325C-53FE-C5AF-0E1B69373B88" name="Tiket_penonton_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>0DEC7259-F075-7A95-1440-6C3C9D302A15</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<referredTableLongName>penonton</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA6C246A-A9FD-00E4-C4AC-97DAD334C744</referredTableID>
+<keyObject>20C48597-4230-AFFE-49BF-EF8321F466B2</keyObject>
+<referredKeyID>20C48597-4230-AFFE-49BF-EF8321F466B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idpenonton</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

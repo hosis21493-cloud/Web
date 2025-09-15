@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="beli" directorySegmentName="seg_0" id="0DEC7259-F075-7A95-1440-6C3C9D302A15">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:31:54 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<sourcePk>36D8E223-005D-E4C2-AE7B-8DA6C0ACB84F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>membeli</nameOnSource>
+<nameOnTarget>dibeli</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF39707B-E2F0-7643-C3D7-D4928D295DD7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7212B81D-E73F-A992-1B7D-E322C2FBCC92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

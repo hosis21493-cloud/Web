@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="174B6061-1B35-BD25-56F2-A46ECB097AF6" name="Genre">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>2F0B76CA-4EFE-F5A5-CACC-383D6F0F1397</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genre_Id" id="F8DA8E3B-A773-FA9F-EA17-BA043890CCDB">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>55EDC44D-3E40-4A46-2B31-BF9B27791653</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Genre" id="8E79735A-AD72-669D-6AF9-BF7F28DA95E8">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>6489C3B6-7B93-932C-3783-482680E05842</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E0EE6FE-6923-B1C3-DBDD-1B2B8A4726EF" name="Genre_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 09:11:12 UTC</createdTime>
+<generatorID>6315ECB2-3F07-9AC3-D2C0-A519D0AEA79F</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8DA8E3B-A773-FA9F-EA17-BA043890CCDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

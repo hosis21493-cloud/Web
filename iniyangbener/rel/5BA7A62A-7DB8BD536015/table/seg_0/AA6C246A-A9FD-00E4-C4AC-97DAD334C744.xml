@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA6C246A-A9FD-00E4-C4AC-97DAD334C744" name="penonton">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>AF39707B-E2F0-7643-C3D7-D4928D295DD7</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idpenonton" id="EB2F5F30-4B00-8E56-62BB-11FB0FD99B1F">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>6BBAE7D1-4AFD-1CAD-69A4-142FEC048440</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="B23211D1-B607-A5ED-54EF-5D07C760D1F8">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>39A0F92C-8A27-676C-935B-FB359C8D0091</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="681E7064-5084-FF5C-E8A1-8A494AD5E27B">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>E8AD32AB-E6E1-53DB-0962-012E52346415</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoTelp" id="BFF5962D-33CB-AA79-B518-47C396DDEAAD">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>D3287359-55D3-0980-11B8-AAE06D80E5F4</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanggalLahir" id="21F3A0DD-E0E2-542C-A112-C6FBE207951E">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>A8F0911F-1C87-8627-D5C9-3DF540C67019</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20C48597-4230-AFFE-49BF-EF8321F466B2" name="penonton_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>36D8E223-005D-E4C2-AE7B-8DA6C0ACB84F</generatorID>
+<ownerDesignName>iniyangbener</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB2F5F30-4B00-8E56-62BB-11FB0FD99B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

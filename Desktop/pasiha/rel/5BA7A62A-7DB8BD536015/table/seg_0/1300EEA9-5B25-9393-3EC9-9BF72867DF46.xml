@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1300EEA9-5B25-9393-3EC9-9BF72867DF46" name="Tiket">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>7212B81D-E73F-A992-1B7D-E322C2FBCC92</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTiket" id="32B55536-88A5-4D5E-B21F-BF7A1AFF3EB8">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>916B3CCE-6FC0-AA59-A25B-9A0944EA5B7B</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="B3A98951-B371-8979-ECE6-93B4942A3C74">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>14938306-1D74-0B83-994B-4DD9BD5DB7FC</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kursi" id="8C8F9B58-5A1F-B33A-4DEC-40DACCB5E636">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>A2DC3389-C6A9-231A-74F2-06EFD6691C9A</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanggalPembelian" id="D91A6F5E-BFCA-F125-3E81-1F4550BA52B9">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>3EFE55AE-141A-4CCA-1EA0-13DE3DC74651</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penonton_idpenonton" id="847AB8E9-B387-464B-B8D8-BC2674D2CCFE">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>2A68FFCA-FE20-162D-52D0-A59310414457</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E24F482D-C2B4-58CF-4735-7DD426B526A4" referredColumn="EB2F5F30-4B00-8E56-62BB-11FB0FD99B1F"/>
+</associations>
+</Column>
+<Column name="Jadwal_IDJadwal" id="4FC7523B-C130-996C-5BF1-B0D4D3DD2DFF">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>B3C7872C-7EC5-2566-84C7-C3BF48CE3186</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7657078-0455-C7A9-0FAB-883C49BFFB6F" referredColumn="4D436AA5-3A5F-B460-0828-2BACC1CE235C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="025149E7-37BC-78CE-5F1E-2AB3364D3CAB" name="Tiket_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>0109A3FC-5792-DE9F-ACF5-291232F380E5</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B55536-88A5-4D5E-B21F-BF7A1AFF3EB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACDC1209-325C-53FE-C5AF-0E1B69373B88" name="Tiket_penonton_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>0DEC7259-F075-7A95-1440-6C3C9D302A15</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="847AB8E9-B387-464B-B8D8-BC2674D2CCFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB2311DE-05CD-E321-7BD8-67CB9564CF16" name="Tiket_Jadwal_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:39:55 UTC</createdTime>
+<generatorID>37FAC438-82EA-C4F6-3D67-5B8437F8718E</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FC7523B-C130-996C-5BF1-B0D4D3DD2DFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

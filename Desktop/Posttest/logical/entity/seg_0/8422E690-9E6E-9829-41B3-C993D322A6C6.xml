@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8422E690-9E6E-9829-41B3-C993D322A6C6" name="Order">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:24:16 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Order_Id" id="6E9598EB-E8C0-A7DA-1944-EFC5C96596AE">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:24:34 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Id" id="433A2704-46D6-4444-7E8F-2756F68FFE2E">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:25:18 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Pesan" id="84D708B3-F231-C228-A582-E01889E12A46">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:25:40 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Harga" id="76587716-113D-F17F-67BE-76FCD904592A">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:25:58 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Id1" id="B649C637-E3B9-98AD-0B59-801A727DC51A">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:32:36 UTC</createdTime>
+<generatorID>C10D4DF6-ABAF-9B6C-1996-67DABAE0E18D</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<referedAttribute>6FB29E18-0330-D502-635C-0A01C85B05EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B62F42A-E46A-7DC1-18D1-31EC8AE6AA22" name="Order PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:25:13 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E9598EB-E8C0-A7DA-1944-EFC5C96596AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

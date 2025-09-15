@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E328245A-BC02-6E24-C626-D7CEFA896352" name="Manga">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:13:10 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Manga_Id" id="38D7C3BA-FD8D-2841-D1CF-76C8A8AECCAA">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:13:18 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Judul" id="410AE474-0E02-4D82-723A-C00C7D7068EB">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:13:42 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="FE5604F9-CCE8-5F48-BB7C-DB54283C000B">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:14:04 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stok" id="468E57A0-ABE3-D50F-FA2D-CDF5285E37E4">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:15:19 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre_ID" id="64FF3AB1-B2F1-B4CE-E69C-82C1098BE5A1">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:15:58 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre_Id1" id="DED06135-7629-B50B-F9C3-E0F70623119A">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:33:57 UTC</createdTime>
+<generatorID>13773DFA-E4B6-3BB0-D733-DFD73B8E5FC2</generatorID>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<referedAttribute>55EDC44D-3E40-4A46-2B31-BF9B27791653</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="279A001E-42B2-6DED-28D4-4CAA7212A5F5" name="Manga PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 06:13:36 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38D7C3BA-FD8D-2841-D1CF-76C8A8AECCAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

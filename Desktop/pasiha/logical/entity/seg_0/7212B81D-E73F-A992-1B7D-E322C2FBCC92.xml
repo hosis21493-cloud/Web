@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7212B81D-E73F-A992-1B7D-E322C2FBCC92" name="Tiket">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:14:11 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTiket" id="916B3CCE-6FC0-AA59-A25B-9A0944EA5B7B">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:14:25 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="14938306-1D74-0B83-994B-4DD9BD5DB7FC">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:17:13 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kursi" id="A2DC3389-C6A9-231A-74F2-06EFD6691C9A">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:18:01 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TanggalPembelian" id="3EFE55AE-141A-4CCA-1EA0-13DE3DC74651">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:18:36 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpenonton" id="2A68FFCA-FE20-162D-52D0-A59310414457">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:31:54 UTC</createdTime>
+<generatorID>0DEC7259-F075-7A95-1440-6C3C9D302A15</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<referedAttribute>6BBAE7D1-4AFD-1CAD-69A4-142FEC048440</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDJadwal" id="B3C7872C-7EC5-2566-84C7-C3BF48CE3186">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:35:20 UTC</createdTime>
+<generatorID>37FAC438-82EA-C4F6-3D67-5B8437F8718E</generatorID>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<referedAttribute>06A7E73C-1C5A-C49F-5D5C-42F8B582F900</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0109A3FC-5792-DE9F-ACF5-291232F380E5" name="Tiket PK">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-10 06:14:47 UTC</createdTime>
+<ownerDesignName>pasiha</ownerDesignName>
+<engineerTo>
+<item key="5BA7A62A-64FB-8FF9-4BD1-7DB8BD536015" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>916B3CCE-6FC0-AA59-A25B-9A0944EA5B7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

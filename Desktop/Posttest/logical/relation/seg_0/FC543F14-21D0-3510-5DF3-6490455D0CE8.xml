@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Manga_OrderItem" directorySegmentName="seg_0" id="FC543F14-21D0-3510-5DF3-6490455D0CE8">
+<createdBy>ACER</createdBy>
+<createdTime>2025-09-13 08:58:58 UTC</createdTime>
+<ownerDesignName>Posttest</ownerDesignName>
+<engineerTo>
+<item key="8C10A249-7136-733C-10A9-704BA39389CB" value="true"/>
+</engineerTo>
+<sourcePk>279A001E-42B2-6DED-28D4-4CAA7212A5F5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Dipesan</nameOnSource>
+<nameOnTarget>Memesan</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E328245A-BC02-6E24-C626-D7CEFA896352</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA10B2C6-FB0A-BEBB-5920-B7E53C0E0ED0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
